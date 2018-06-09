@@ -15,7 +15,7 @@
 
             var chart = new CanvasJS.Chart("chartContainer", {
                 animationEnabled: true,
-                theme: "light2", // "light1", "light2", "dark1", "dark2"
+                theme: "light2",
                 title:{
                     text: "<?php echo $_POST['title']?>"
                 },
